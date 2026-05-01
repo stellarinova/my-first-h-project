@@ -1,0 +1,49 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>PurrCompare: Cat Product Finder</title>
+     <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+     <header>
+       <h1>🐾 PurrCompare</h1>
+       <p>Find the best cat products across shops</p>
+     </header>
+
+     <main>
+       <section class="filters">
+         <label for="category">Category:</label>
+         <select id="category">
+           <option value="all">All</option>
+           <option value="litter">Litter</option>
+           <option value="dry-food">Dry Food</option>
+           <option value="wet-food">Wet Food</option>
+         </select>
+         <label for="max-price">Max Price ($):</label>
+         <input type="number" id="max-price" placeholder="e.g., 50">
+       </section>
+
+       <div class="products" id="products-container">
+         <!-- Products will appear here via JS in Phase 2 -->
+         <!-- For now, we'll add static HTML for testing -->
+         <div class="product-card">
+           <img src="https://via.placeholder.com/300x200?text=Cat+Litter" alt="Cat litter">
+           <h3>Premium Clumping Litter</h3>
+           <p class="shop">Available at: Chewy</p>
+           <p class="price">$24.99</p>
+           <button>View on Chewy</button>
+         </div>
+         <!-- Repeat 2-3 more times for testing -->
+       </div>
+     </main>
+
+     <footer>
+       <p>© 2026 PurrCompare • For educational purposes only</p>
+     </footer>
+
+     <script src="script.js"></script>
+   </body>
+   </html>
+   
